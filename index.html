@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+    <link rel="stylesheet" href="estilo/style.css">
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="imagens/logo.png" alt="Logo C.A.B">
+        <h1>Decodificador C.A.B</h1>
+    </header>
+    <section>
+        <div class="container-input">
+            <div class="entrada">
+                <textarea id="entrada-texto" placeholder="Digite seu texto aqui..."></textarea>
+            </div>
+            <div id="saida">
+                <img class="imagem" src="imagens/imagem.png" alt="">
+            </div>
+        </div>
+        <p id="atencao">⚠️ Apenas letras minúsculas e sem caracteres!</p>
+        <div>
+            <button onclick="criptografar()" class="btn1">Criptografar</button>
+            <button onclick="descriptografar()" class="btn2">Descriptografar</button>
+            <button class="btn-copiar" id="copiar" onclick="copiar()">Copiar</button>
+        </div>
+    </section>
+    <footer>
+        <p>&copy;Carla Alves Beserra.</p>
+        <p>Minhas redes:</p>
+        <div><a href="https://www.instagram.com/carlaalvesb_/"><ion-icon name="logo-instagram"></ion-icon>Instagram</a>
+        </div>
+        <p><a href="https://www.linkedin.com/in/carla-alves-dev"><ion-icon name="logo-linkedin"></ion-icon>Linkedin</a>
+        </p>
+    </footer>
+    <script src="interacoes/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
